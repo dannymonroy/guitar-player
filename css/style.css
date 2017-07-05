@@ -1,0 +1,57 @@
+/* MAIN CSS
+beta: 1.0
+@author: Danny Monroy
+URL:
+*/
+
+/*Colors
+
+*/
+
+/*Font Import*/
+
+
+
+/* Global Styles
+-------------------------
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  background-image: url(../images/guitar_background.jpg);
+  background-repeat:round;
+  background-size:auto;
+  font-family: Roboto, sans-serif;
+}
+
+.chords {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.note{
+  border: solid yellow;
+  color: #FFFFFF;
+  margin: 0% 2%;
+  padding: 0.5em;
+  font-size: 1.8em;
+  text-align: center;
+  text-shadow: 3px 3px #000000;
+  background-color: rgba(50,50,50,0.5);
+}
+
+.note h3 {
+
+  color: yellow;
+  font-size: 2em;
+}

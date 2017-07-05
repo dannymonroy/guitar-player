@@ -4,6 +4,8 @@ beta: 1.0
 URL:
 */
 
+
+
 /*Colors
 
 */
@@ -20,6 +22,8 @@ html {
 }
 *, *:before, *:after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -42,16 +46,18 @@ body{
 .note{
   border: solid yellow;
   color: #FFFFFF;
-  margin: 0% 2%;
-  padding: 0.5em;
+  margin: 0 1%;
+  padding: 20px 0.2em;
   font-size: 1.8em;
   text-align: center;
   text-shadow: 3px 3px #000000;
-  background-color: rgba(50,50,50,0.5);
+  background-color: rgba(50,50,50,0.7);
+  transition: all 0.07s; 
 }
 
 .note h3 {
-
   color: yellow;
   font-size: 2em;
 }
+
+/* ADD Class of Playing */

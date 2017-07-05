@@ -31,7 +31,14 @@ body{
   background-image: url(../images/guitar_background.jpg);
   background-repeat:round;
   background-size:auto;
-  font-family: Roboto, sans-serif;
+  font-family: Helvetica, sans-serif;
+}
+
+h1{
+  color:#FFFFFF;
+  font-size: 5em;
+  text-align: center;
+  margin-top: 5%;
 }
 
 .chords {
@@ -44,15 +51,16 @@ body{
 
 
 .note{
-  border: solid yellow;
+  border: solid 5px yellow;
+  border-radius: 5px;
   color: #FFFFFF;
   margin: 0 1%;
-  padding: 20px 0.2em;
+  padding: 20px 0.8em;
   font-size: 1.8em;
   text-align: center;
   text-shadow: 3px 3px #000000;
   background-color: rgba(50,50,50,0.7);
-  transition: all 0.07s; 
+  transition: all 0.07s;
 }
 
 .note h3 {
@@ -61,3 +69,16 @@ body{
 }
 
 /* ADD Class of Playing */
+.note:hover{
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px red;
+  text-shadow: 5px 5px #000000;
+
+}
+
+.playing{
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 10px red;
+}

@@ -34,11 +34,32 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
-h1{
+header{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(50,50,50,0.7);
   color:#FFFFFF;
-  font-size: 5em;
+  font-size: 2em;
   text-align: center;
   margin-top: 5%;
+  padding: 1%;
+}
+
+header h1{
+  text-shadow: 3px 3px 2px #000000;
+  font-size: 3em;
+}
+
+footer{
+  font-size: 1.5em;
+  padding: 1%;
+  -webkit-text-stroke: 1px black;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer p{
+  color:#BBBBBB;
 }
 
 .chords {

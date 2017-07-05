@@ -12,11 +12,3 @@ window.addEventListener('keydown', function(e){
   }, 300);
 
 });
-/*
-function removeTransition(e) {
-  console.log(e);
-}
-
-const keys = document.querySelectorAll('.note');
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-*/
